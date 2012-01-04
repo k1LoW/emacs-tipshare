@@ -68,7 +68,7 @@
 ;; Below are complete command list:
 ;;
 ;;  `tipshare-region'
-;;    Post the current region as a new tip at tipshare.info
+;;    Post the current region as a new tips at tipshare.info
 ;;  `tipshare-auth-info'
 ;;    Returns the user's Tipshare authorization information.
 ;;
@@ -94,7 +94,7 @@
   :type 'string)
 
 (defun tipshare-region (begin end)
-  "Post the current region as a new tip at tipshare.info"
+  "Post the current region as a new tips at tipshare.info"
   (interactive "r")
   (let* ((private nil))
     (tipshare-request
